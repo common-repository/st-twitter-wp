@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:300|PT+Sans:400|PT+Sans:700);
+.st-twitter-admin {
+    margin: auto;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    line-height: 18px;
+    width: 100%;
+}
+.st-twitter-admin .box {
+    overflow: hidden;
+    background: #FEFEFE;
+    border: solid 1px #DDDDDD;
+    outline: 0;
+    font: normal 13px/100% Verdana,Tahoma,sans-serif;
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+.st-twitter-admin textarea {
+    vertical-align: middle;
+    width: 50%;
+    border-radius: 3px;
+    height: 300px;
+}
+.st-twitter-admin .head > h3 {
+    border-bottom-color: #3D3D3D;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    padding: 15px 16px 15px 65px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+    background: url("../editor_button/images/st-twitter-icon.png") no-repeat scroll 5px 5px #40B6AD;
+    background-position: 15px 0px;
+}
+.st-twitter-admin > h2 {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 9px 15px 4px 0;
+    line-height: 29px;
+    margin: 5px 0;
+}
+.st-twitter-admin .main .col .z-label {
+    background: url("../editor_button/images/settings.png") no-repeat scroll 5px 5px #4095B6;
+    border-bottom-color: #3D3D3D;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    margin: 6px 50px 6px 10px;
+    padding: 8px 15px 8px 35px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+    width: 24.49%;
+}
+.st-twitter-admin .main .col .z-label p {
+    line-height: normal;
+    margin: 0;
+}
+.st-twitter-admin .main .col {
+    margin: 15px 0;
+}
+.st-twitter-admin .main .col [type="text"] {
+    padding: 5px 20px;
+    width: 50%;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.st-twitter-admin .main .col [type="submit"] {
+    margin: 1px 10px;
+    padding: 4.5px 20px 8px;
+	background: #7ac0a8;
+	border: 1px solid #7ac0a8;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	min-width: 100px;
+    line-height: 15px;
+}
+.st-twitter-admin .main .col [type="submit"]:hover {
+    background: #4F9E83;
+}
+.st-twitter-admin .left {
+    width: 58%;
+}
+.st-twitter-admin .head {
+    clear: both;
+    width: auto;
+    margin: 0;
+}
+.st-twitter-admin .main.box {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 3%;
+}
+.st-twitter-admin .right {
+    width: 37%;
+    margin-right: 0 !important;
+    padding: 0;
+    background: transparent;
+    border: 0 none;
+    box-shadow: none;
+}
+.st-twitter-admin .left .box-title {
+    padding:8px 20px
+}
+.st-twitter-admin .box-title {
+    position: relative;
+	font-size: 14px;
+	padding: 8px 12px;
+	line-height: 1.4;
+	background: #7ac0a8;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 2px 2px 0px 0px;
+	cursor: pointer;
+    margin: 0;
+}
+.st-twitter-admin .right .st-box {
+	position: relative;
+	border: 1px solid #dfdfdf;
+	border-radius: 0px 0px 3px 3px;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-top: 0px;
+	top: -1px;
+}
+.st-twitter-admin .right .box-content {
+    padding: 10px;
+    overflow: hidden;
+}
+.st-twitter-admin .right .st-row {
+    margin: 10px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.st-twitter-admin .right .st-rss {
+    top: 1px;
+    border-top: 1px solid #dfdfdf;
+}
+.st-twitter-admin .right .st-links {
+    border-top: 1px solid #dfdfdf;
+    margin: 0;
+}
+.st-twitter-admin .main.right .col {
+    margin: 0;
+    padding: 0;
+    float: left;
+    box-sizing: border-box;
+}
+.st-twitter-admin .right .col-8 {
+    width: 80%;
+}
+.st-twitter-admin .right .st-links .links > ul > li {
+    margin: 0;
+    float: left;
+    padding: 0;
+    text-align: center;
+    width: 25%;
+}
+.st-twitter-admin .right .st-links .links a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 0;
+    border-right: 1px solid #dfdfdf;
+    overflow: hidden;
+    display: block;
+    font-size: 11px;
+}
+.st-twitter-admin .right .st-links .links li:last-child a {
+    border: 0;
+}
+.st-twitter-admin .right .st-links .links > ul > li:first-child {
+    width: 15%;
+}
+.st-twitter-admin .right .st-links .links > ul > li:nth-child(2) {
+    width: 35%;
+}
+.st-twitter-admin .right .col-2 {
+    width: 20%;
+}
+.st-twitter-admin .right .social > ul {
+    float: right;
+    width: 100%;
+}
+.st-twitter-admin .right .st-links .social > ul > li {
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 50%;
+}
+.st-twitter-admin .right .st-links .links li:last-child a {
+    border: 0;
+}
+.st-twitter-admin .right .st-links .social a {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 11px 0px 10px;
+	border-left: 1px solid #dfdfdf;
+	background: #FFFFFF;
+	overflow: hidden;
+	display: block;
+	color: #000;
+}
+.st-twitter-admin .right .st-links .social .dashicons {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.st-twitter-admin .st-row.st_load_rss {
+    margin: 0;
+}
+.st-twitter-admin .st-row.st_load_rss ul {
+    list-style: inside;
+    list-style-type: circle;
+}
+.st-twitter-admin .st-row.st_load_rss a {
+    text-decoration: none;
+}
+.st-twitter-admin .dashicons {
+    padding-right: 5px;
+}
+.st-twitter-admin .getapi {
+    margin: 0 10px;
+}
+.st-twitter-admin .box.left {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0 none;
+    padding-top:0;
+}
+.st-twitter-admin .box.left .content {
+    overflow: hidden;
+    background: #FEFEFE;
+    outline: 0;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid #ddd;
+    border-top:0;
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    padding: 10px;
+}
+.st-twitter-admin .main.right .col ul {
+    margin: 0;
+}
+@media ( max-width: 768px ){  /* 1200x800 */
+	.st-twitter-admin .main.box {
+		margin-right: 0;
+	}
+	.st-twitter-admin .box.left,
+    .st-twitter-admin .box.right {
+		width: 100%;
+	}
+}

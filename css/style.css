@@ -1,0 +1,211 @@
+@font-face {
+    font-family:'rosettaicons';
+    src:url('font/rosetta-icons-Regular.eot');
+    src:url('font/rosetta-icons-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/rosetta-icons-Regular.woff') format('woff'),
+    url('font/rosetta-icons-Regular.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:"Source Sans Pro";
+    src:url("font/SourceSansPro-Regular.eot?") format("eot"),
+    url("font/SourceSansPro-Regular.woff") format("woff"),
+    url("font/SourceSansPro-Regular.ttf") format("truetype"),
+    url("font/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+.st-twitter-template.default {
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+.st-twitter-template.default .head {
+    display: inline-block;
+}
+.st-twitter-template.default .head h3 {
+    margin: 20px 0 20px 25px;
+    line-height: normal;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: rgb( 9, 9, 9 );
+    text-transform: uppercase;
+}
+.st-twitter-template.default li {
+    list-style:none;
+}
+.st-twitter-template.default ul,
+.st-twitter-template.default > ul > li {
+    margin: 0;
+}
+.st-twitter-template.default > ul > li {
+    display: block;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.st-twitter-template.default li .entry-wrap {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+    font-family: "Source Sans Pro";
+    color: #666;
+}
+.st-twitter-template.default li .entry-wrap .main {
+    background-color: #fff;
+    border-top: 1px solid rgb( 250, 250, 250 );
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.375em;
+    padding: 13px 15px 15px;
+    position: relative;
+    border-bottom: 1px solid transparent;
+}
+.st-twitter-template.default .entry-wrap .entry-header {
+    color: #8899a6;
+    margin: 0;
+    transition: color .15s;
+}
+.st-twitter-template.default .entry-wrap .profile-authorDetails {
+    line-height: 14px;
+    padding-top: 2px;
+}
+.st-twitter-template.default .profile-avatar {
+    border-radius: 4px;
+    float: left;
+    height: 24px;
+    margin: 0 6px 0 0;
+    width: 24px;
+}
+.st-twitter-template.default .profile-name {
+    max-width: 60%;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+    word-wrap: normal!important;
+}
+.st-twitter-template.default .profile-fullname {
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+.st-twitter-template.default .profile-screenname {
+    color: #8899a6;
+    font-size: 13px;
+}
+.st-twitter-template.default .pullLeft {
+    float: left !important;
+}
+.st-twitter-template.default .profile-time {
+    color: #999;
+    display: inline-block;
+    font-size: 13px;
+    transition: color .15s;
+    white-space: nowrap
+}
+.st-twitter-template.default .entry-content {
+    margin-left: 30px;
+    line-height: 1.375em;
+    margin-top: -5px;
+    clear: both;
+}
+.st-twitter-template.default ul.tweet-content {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+}
+.dir[dir="ltr"] {
+    direction: ltr!important;
+    text-align: left!important;
+    unicode-bidi: embed;
+}
+.st-twitter-template.default .entry-content .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+.st-twitter-template.default .ul-action {
+    margin: 5px 0 0 0;
+    display: inline-block;
+}
+.st-twitter-template.default .ul-action .li-action {
+    float: left;
+    margin: 0 31px 0 0;
+    line-height: normal;
+}
+.st-twitter-template.default .ul-action .li-action a {
+    text-decoration: none;
+}
+.st-twitter-template.default .ul-action .li-action .ic-mask {
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+}
+.st-twitter-template.default .ul-action .li-action .ic-mask:before {
+    display: block;
+    font-family: "rosettaicons";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    color:#ccd6dd;
+}
+.st-twitter-template.default .ul-action .li-action .ic-reply:before {
+    content: "\f151";
+}
+.st-twitter-template.default .ul-action .li-action b {
+    position: absolute!important;
+    overflow: hidden!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    border: 0!important;
+    clip: rect(1px,1px,1px,1px)!important;
+}
+.st-twitter-template.default .ul-action .li-action .ic-retweet:before {
+    content: "\f152";
+}
+.st-twitter-template.default .ul-action .li-action .ic-fav:before {
+    content: "\f147";
+}
+.st-twitter-template.default .ul-action .li-action .ic-mask:hover:before {
+    color: #5c913b;
+}
+.st-twitter-template.default .entry-content .text a:visited, 
+.st-twitter-template.default .entry-content .text a {
+    color: #55acee;
+}
+.st-twitter-template.default li .entry-wrap .main:hover {
+    border:1px solid #8ec4f3;
+}
+.st-twitter-template.default li:last-child .entry-wrap .main:hover {
+    border-bottom: 1px solid #8ec4f3;
+}
+.st-twitter-template.default .footer {
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    width: 97%;
+    text-align: left;
+    border-top: 1px solid rgb( 250, 250, 250 );
+    padding: 10px 0;
+    padding-left: 3%;
+}
+.st-twitter-template.default .footer a {
+    text-decoration: none;
+    color: #666;
+    text-transform: capitalize;
+}
